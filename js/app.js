@@ -31,7 +31,7 @@ function numCheck(number){
 
   function fizzBuzz(number){
     $(".output").show();
-    $(".output").append("You entered: " + number);
+    // $(".output").append("You entered: " + number);
     for(var i = 1;i <= number; i++){
       var fizz = i % 3;
       var buzz = i % 5;
